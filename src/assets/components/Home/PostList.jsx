@@ -1,14 +1,3 @@
-export default function PostList () {
-  
-    return(
-        <div>
-
-
-
-            
-        </div>
-    )
-
-
-
+export default function PostList() {
+  return <div></div>;
 }
