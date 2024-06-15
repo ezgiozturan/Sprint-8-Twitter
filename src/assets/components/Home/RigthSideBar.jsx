@@ -1,13 +1,10 @@
 export default function RigthSideBar () {
   
-    return(
-        <div>
-
-
-
-            
-        </div>
-    )
+    return (
+      <div>
+        <h2>dddddddddddddddddd</h2>
+      </div>
+    );
 
 
 

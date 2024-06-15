@@ -1,0 +1,39 @@
+body, html, #root {
+    margin: 0;
+    padding: 0;
+    /* height: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width:100% ;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: row; 
+    width: 100%;
+    
+  }
+  
+  .section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+  }
+  
+  .section-left {
+    flex: 1; 
+    
+    justify-content: flex-start; 
+    align-items: flex-start; 
+  }
+  .section-middle {
+    flex: 2; 
+    background-color: lightblue;
+  }
+  
+  .section-right {
+    flex: 1; 
+    background-color: lightgreen;
+  }

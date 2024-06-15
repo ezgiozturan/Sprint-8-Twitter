@@ -9,33 +9,65 @@ img {
 }
 .ana-div {
     border: 1px solid white;
-    border-radius: 5px;
+    border-radius: 10px;
     width: 80vh;
-    height: 80vh;
+    height: 88vh;
 
 }
 
 .signup-form input {
     width: 60vh;
     height: 8vh;
+    background-color: black;
+    border-radius: 5px;
 }
 .date-picker {
-    background-color: black;
+    
     padding: 10px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
     display: flex;
-    justify-content: space-around;  }
-  
-  .date-picker label {
-    margin-right: 10px;
-    margin-top: 10px;
+    justify-content: center; 
+    gap: 0.5rem;
+    height: 70px;
+   
+    
   }
+  
   
   .date-picker select {
     margin-bottom: 10px;
     padding: 5px;
     border-radius: 5px;
-    border: 1px solid #ccc;
-    width: 100px;
+    /* border: 1px solid #ccc; */
+    width: 20vh;
+    padding: 0rem 1rem 1rem 0rem;
+    color: grey;
+    background-color: black;
+    
+  }
+ 
+  .dogum-tarihi {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 11%;
+    text-align: start;
+  
+  }
+  #h5-dogum {
+    margin-bottom: -15px;
+  }
+  .isim-kullanici{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  #button-kayit {
+    background-color: white;
+    color: black;
+    width: 25rem;
+    border-radius: 20px ;
+    margin-left: 55px;
+    margin-bottom: 10px;
   }
