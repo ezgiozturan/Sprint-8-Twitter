@@ -130,7 +130,7 @@ export default function Navigation({ kullanici }) {
         <img src="https://picsum.photos/200/300" className="circle-img" />
         <div className="karakter-details">
           <h4>{kullanici.isim}</h4>
-          <h5>@{kullanici.kullanici}</h5>
+          <h5>@{kullanici.person}</h5>
         </div>
       </div>
     </div>
