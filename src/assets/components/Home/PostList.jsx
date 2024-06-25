@@ -12,6 +12,8 @@ import { CiLocationOn } from "react-icons/ci";
 
 export default function PostList() {
   const { tweet, setTweet } = useState();
+
+  const handleChange = (e) => {};
   return (
     <div>
       <div className="home-nav">
@@ -25,6 +27,7 @@ export default function PostList() {
           maxLength="280"
           rows="5"
           cols="50"
+          onChange={handleChange}
         ></textarea>
         <div className="text-footer">
           <div className="tweet-sembol">

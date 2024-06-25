@@ -1,3 +1,11 @@
 .postlar {
   
 }
+textarea {
+    background-color: black;
+    padding: 2rem;
+    font-size: 20px;
+    padding-bottom: 0;
+    width: 89%;
+    border: 1px solid grey;
+}

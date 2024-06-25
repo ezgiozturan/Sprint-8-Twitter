@@ -2,9 +2,9 @@ import { Link } from "react-router-dom/cjs/react-router-dom";
 import "./Navigation.css";
 
 export default function Navigation({ kullanici }) {
-document.getElementById("focus-button").addEventListener("click", function () {
-  let textarea = document.getElementById;
-});
+  // document.getElementById("focus-button").addEventListener("click", function () {
+  //   let textarea = document.getElementById;
+  // });
 
   return (
     <div className="container-nav">
