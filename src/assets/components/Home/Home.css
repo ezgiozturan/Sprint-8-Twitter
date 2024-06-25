@@ -11,7 +11,8 @@ body, html, #root {
   .container {
     display: flex;
     flex-direction: row; 
-    width: 100%;
+    width: 200vh;
+   
     
   }
   
@@ -24,16 +25,21 @@ body, html, #root {
   
   .section-left {
     flex: 1; 
-    
+    width: 15vh;
     justify-content: flex-start; 
     align-items: flex-start; 
+  
   }
   .section-middle {
     flex: 2; 
-    background-color: lightblue;
+    background-color: black;
+    width: 50%;
+    border: 1px solid grey;
+    
   }
   
   .section-right {
     flex: 1; 
-    background-color: lightgreen;
+    background-color: black;
+    border: 1px solid grey;
   }

@@ -1,9 +1,14 @@
-import logo from "../../components/twitterLogo.png"
-import "./Welcome.css"
+import { useHistory } from "react-router-dom/cjs/react-router-dom.min";
+import logo from "../../components/twitterLogo.png";
+import "./Welcome.css";
 import axios from "axios";
 // import google from "../../components/googleIcon.png"
 
 export default function Welcome() {
+  const history = useHistory();
+  const handleClick = () => {
+    history.push("/signup");
+  };
   return (
     <>
       <div className="welcome-page">
@@ -13,8 +18,10 @@ export default function Welcome() {
           <h2>Hemen katıl</h2>
           <div className="buttons">
             <div className="white-button">
-              <button id="google-signup">Google ile kaydol </button>
-              <button>Apple ile kaydol</button>
+              <button id="google-signup" onClick={handleClick}>
+                Google ile kaydol{" "}
+              </button>
+              <button onClick={handleClick}>Apple ile kaydol</button>
             </div>
 
             <h5 id="veya">veya</h5>

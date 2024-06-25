@@ -7,17 +7,21 @@ import SignUp from "./assets/components/Signup/SignUp";
 import { useState } from "react";
 
 function App() {
-  const [kullanici, setKullanici] = useState(null);
+  const initialForm = {
+    isim: "Ezgi Özturan",
+    kullanici: "ezgiozturan",
+  };
+  const [kullanici, setKullanici] = useState(initialForm);
   return (
     <Switch>
       <Route exact path="/">
-        <Welcome />
+        <Welcome kullanici={kullanici} />
       </Route>
       <Route path="/home">
         <Home kullanici={kullanici} />
       </Route>
       <Route path="/signup">
-        <SignUp setKullanici={setKullanici} />
+        <SignUp setKullanici={setKullanici} initialForm={initialForm} />
       </Route>
     </Switch>
   );

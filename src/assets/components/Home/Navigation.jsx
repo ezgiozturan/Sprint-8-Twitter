@@ -2,6 +2,10 @@ import { Link } from "react-router-dom/cjs/react-router-dom";
 import "./Navigation.css";
 
 export default function Navigation({ kullanici }) {
+document.getElementById("focus-button").addEventListener("click", function () {
+  let textarea = document.getElementById;
+});
+
   return (
     <div className="container-nav">
       <svg
@@ -125,7 +129,9 @@ export default function Navigation({ kullanici }) {
           &nbsp; &nbsp; Daha
         </Link>
       </nav>
-      <button className="post-button">Post</button>
+      <button className="post-button" id="focus-button">
+        Post
+      </button>
       <div className="karakter">
         <img src="https://picsum.photos/200/300" className="circle-img" />
         <div className="karakter-details">

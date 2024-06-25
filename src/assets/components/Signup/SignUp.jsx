@@ -2,17 +2,9 @@ import { useState } from "react";
 import logo from "../../components/twitterLogo.png";
 import "./SignUp.css";
 import axios from "axios";
-import { useHistory } from "react-router-dom/cjs/react-router-dom.min";
+import { useHistory } from "react-router-dom";
 
-const initialForm = {
-  isim: "",
-  person: "",
-  day: "",
-  month: "",
-  year: "",
-};
-
-export default function SignUp({ setKullanici }) {
+export default function SignUp({ setKullanici, initialForm }) {
   const [formData, setFormData] = useState(initialForm);
   const history = useHistory();
 
