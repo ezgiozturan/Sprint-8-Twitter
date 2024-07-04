@@ -11,7 +11,7 @@ export default function Home({ kullanici }) {
           <Navigation kullanici={kullanici} />
         </div>
         <div className="section section-middle">
-          <PostList />
+          <PostList kullanici={kullanici} />
         </div>
         <div className="section section-right">
           <RigthSideBar />

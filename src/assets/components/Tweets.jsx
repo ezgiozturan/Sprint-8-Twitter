@@ -1,7 +1,7 @@
 const tweets = [
   {
     id: 1,
-    person: "Ezgi Cacık",
+    isim: "Ezgi Cacık",
     kullanici: "ezgicacik",
     personPhoto: "https://picsum.photos/200/300",
     content:
@@ -9,7 +9,7 @@ const tweets = [
   },
   {
     id: 2,
-    person: "Obi-Wan Kenobi",
+    isim: "Obi-Wan Kenobi",
     kullanici: "obiiii",
     personPhoto: "https://picsum.photos/200/400",
     content:
@@ -17,7 +17,7 @@ const tweets = [
   },
   {
     id: 3,
-    person: "Küçük Prens",
+    isim: "Küçük Prens",
     kullanici: "kucukprens",
     personPhoto: "https://picsum.photos/200/500",
     content:
@@ -25,7 +25,7 @@ const tweets = [
   },
   {
     id: 4,
-    person: "Mehmet Demir",
+    isim: "Mehmet Demir",
     kullanici: "mehmetdemir",
     personPhoto: "https://picsum.photos/200/600",
     content: "Yürüyüş yapmak harika",
@@ -33,7 +33,7 @@ const tweets = [
   },
   {
     id: 5,
-    person: "Zeynep Aydın",
+    isim: "Zeynep Aydın",
     kullanici: "zeynepaydin",
     personPhoto: "https://picsum.photos/200/700",
     content: "Yeni tarif denedim",
@@ -41,7 +41,7 @@ const tweets = [
   },
   {
     id: 6,
-    person: "Ahmet Çelik",
+    isim: "Ahmet Çelik",
     kullanici: "ahmetcelik",
     personPhoto: "https://picsum.photos/200/800",
     content: "Teknoloji hızla gelişiyor",
@@ -49,7 +49,7 @@ const tweets = [
   },
   {
     id: 7,
-    person: "Fatma Yıldız",
+    isim: "Fatma Yıldız",
     kullanici: "fatmayildiz",
     personPhoto: "https://picsum.photos/200/750",
     content: "Doğada olmak huzur verici",
@@ -57,7 +57,7 @@ const tweets = [
   },
   {
     id: 8,
-    person: "Mustafa Şahin",
+    isim: "Mustafa Şahin",
     kullanici: "mustafasahin",
     personPhoto: "https://picsum.photos/200/701",
     content: "Kahve içmeden güne başlayamıyorum",
@@ -65,7 +65,7 @@ const tweets = [
   },
   {
     id: 9,
-    person: "Emine Ak",
+    isim: "Emine Ak",
     kullanici: "emineak",
     personPhoto: "https://picsum.photos/200/730",
     content: "Yeni müzik albümü çıktı",
@@ -73,7 +73,7 @@ const tweets = [
   },
   {
     id: 10,
-    person: "Hakan Öz",
+    isim: "Hakan Öz",
     kullanici: "hakanoz",
     personPhoto: "https://picsum.photos/200/110",
     content: "Spor yapmak enerjimi artırıyor",

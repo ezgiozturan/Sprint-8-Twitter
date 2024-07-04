@@ -8,8 +8,9 @@ import { useState } from "react";
 
 function App() {
   const initialForm = {
-    isim: "Ezgi Özturan",
-    kullanici: "ezgiozturan",
+    isim: "",
+    kullanici: "",
+    personPhoto: "https://picsum.photos/200/305",
   };
   const [kullanici, setKullanici] = useState(initialForm);
   return (

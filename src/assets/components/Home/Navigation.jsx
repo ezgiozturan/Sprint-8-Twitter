@@ -133,10 +133,10 @@ export default function Navigation({ kullanici }) {
         Post
       </button>
       <div className="karakter">
-        <img src="https://picsum.photos/200/300" className="circle-img" />
+        <img src="https://picsum.photos/200/305" className="circle-img" />
         <div className="karakter-details">
           <h4>{kullanici.isim}</h4>
-          <h5>@{kullanici.person}</h5>
+          <h5>@{kullanici.kullanici}</h5>
         </div>
       </div>
     </div>

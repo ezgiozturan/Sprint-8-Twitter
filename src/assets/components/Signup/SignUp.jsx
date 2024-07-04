@@ -62,7 +62,7 @@ export default function SignUp({ setKullanici, initialForm }) {
               <input
                 type="text"
                 placeholder="İsim Soyisim"
-                value={formData.isim}
+                value={formData.kullanici.isim}
                 name="isim"
                 onChange={handleChange}
               />
@@ -71,7 +71,7 @@ export default function SignUp({ setKullanici, initialForm }) {
               <input
                 type="text"
                 placeholder="Kullanıcı Adı"
-                value={formData.kullanici}
+                value={formData.kullanici.kullanici}
                 name="kullanici"
                 onChange={handleChange}
               />

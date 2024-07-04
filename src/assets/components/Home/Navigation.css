@@ -1,9 +1,12 @@
-
+.container-nav{
+  position: fixed;
+  left: 50px;
+}
 .nav-div {
     display: flex;
     flex-direction: column;
     /* border: 1px solid white; */
-    width: 50vh;
+    width: 45vh;
     height: 70vh;
     align-items: flex-start;
     color: white;

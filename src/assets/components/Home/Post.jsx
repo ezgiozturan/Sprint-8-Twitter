@@ -12,7 +12,7 @@ const Post = ({ tweet }) => {
     <div className="tweet">
       <div className="tweet-header">
         <img src={tweet.personPhoto} className="circle-img" />
-        <span className="person">{tweet.person}</span>
+        <span className="person">{tweet.isim}</span>
         <span className="username">@{tweet.kullanici}</span>
       </div>
       <div className="tweet-content">
